@@ -1,0 +1,60 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    text-align: center;
+    background-color: #121212;
+}
+h1 {
+    font-size: 1.8rem;
+    color: #FAF2E9;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #141414;
+
+}
+body {
+    margin: 0;
+}
+.content {
+    padding: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.card-grid {
+    max-width: 300px;
+    margin: 0 1rem 0 1rem;
+    display: grid;
+    grid-gap: 2rem;
+}
+.card {
+    background-color: #bae7e1;
+    width: 300px;
+    box-shadow: 2px 2px 12px 1px rgba(120,120,120,.5);
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto;
+    
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #141414;
+}
+.reading {
+    font-size: 1.2rem;
+    color: #1282A2;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.chart-container {
+    width: 600px;
+
+}
